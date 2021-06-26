@@ -59,17 +59,22 @@ bool BowlingScore<T>::isSquare(const std::tuple<T, T> throwing)
 }
 
 template<typename T>
-T BowlingScore<T>::calculScoreStrike(const T turn, const std::array<std::tuple<T, T>, 11> arrayThrow)
+T BowlingScore<T>::calculScoreStrike(const T turn, const std::array<std::tuple<T, T>, 12> arrayThrow)
 {
 	T t1 = 0, t2 = 0 ;
 
 	std::tie<T, T>(t1, t2) = arrayThrow[turn+1];
+	
+	if (10 == t1)
+	{
+		t2 = std::get<0>(arrayThrow[turn + 2]);
+	}
 
 	return 10 + t1 + t2;
 }
 
 template<typename T>
-T BowlingScore<T>::calculScoreSquare(const T turn, const std::array<std::tuple<T, T>, 11> arrayThrow)
+T BowlingScore<T>::calculScoreSquare(const T turn, const std::array<std::tuple<T, T>, 12> arrayThrow)
 {
 	T t1 = 0, t2 = 0;
 
@@ -79,7 +84,7 @@ T BowlingScore<T>::calculScoreSquare(const T turn, const std::array<std::tuple<T
 }
 
 template<typename T>
-T BowlingScore<T>::calculScoreAll(const std::array<std::tuple<T, T>, 11> arrayThrow)
+T BowlingScore<T>::calculScoreAll(const std::array<std::tuple<T, T>, 12> arrayThrow)
 {
 	auto finalScore = 0;
 

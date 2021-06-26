@@ -9,8 +9,8 @@ int main(int argc, char* argv[])
 	BowlingScore<int> bowlingScore;
 	auto t1 = 0, t2 = 0, it = 0;
 	auto randomThrow = 0;
-	std::array<std::tuple<int, int>, 11> arrayThrow;
-
+	std::array<std::tuple<int, int>, 12> arrayThrow;
+	 
 	// init generator
 	std::srand(std::time(nullptr));
 
@@ -35,6 +35,12 @@ int main(int argc, char* argv[])
 			t1 = std::rand() % 11;
 			t2 = std::rand() % (11 - t1);
 			arrayThrow[10] = std::make_tuple(t1, t2);
+
+			if (10 == t1)
+			{
+				t1 = std::rand() % 11;
+				arrayThrow[11] = std::make_tuple(t1, 0);
+			}
 		}
 	}
 

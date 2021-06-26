@@ -12,7 +12,15 @@ class BowlingScoreTest : public::testing::Test {
 					  std::make_tuple(5, 5), std::make_tuple(1, 2),
 					  std::make_tuple(8, 1), std::make_tuple(0, 10),
 					  std::make_tuple(9, 0), std::make_tuple(10, 0),
-					  std::make_tuple(6, 2)
+					  std::make_tuple(10, 0), std::make_tuple(6, 0)
+		};
+
+		arrayThrowBestScore = { std::make_tuple(10, 0), std::make_tuple(10, 0),
+			  std::make_tuple(10, 0), std::make_tuple(10, 0),
+			  std::make_tuple(10, 0), std::make_tuple(10, 0),
+			  std::make_tuple(10, 0), std::make_tuple(10, 0),
+			  std::make_tuple(10, 0), std::make_tuple(10, 0),
+			  std::make_tuple(10, 0), std::make_tuple(10, 0)
 		};
 	}
 
@@ -21,7 +29,8 @@ class BowlingScoreTest : public::testing::Test {
 	}
 
 protected:
-	std::array<std::tuple<int, int>, 11> arrayThrow;// avoid using C-Style syntaxe, use C++ instead
+	std::array<std::tuple<int, int>, 12> arrayThrow;// avoid using C-Style syntaxe, use C++ instead
+	std::array<std::tuple<int, int>, 12> arrayThrowBestScore;// avoid using C-Style syntaxe, use C++ instead
 	int scoreThrow1 = 3; 
 	int scoreStrike = 17;
 };
@@ -80,7 +89,7 @@ TEST_F(BowlingScoreTest, testCalculStrikeScore)
 
 	returnTemp = bowlingScore.calculScoreStrike(9, arrayThrow);
 
-	EXPECT_TRUE(returnTemp == 18);
+	EXPECT_TRUE(returnTemp == 26);
 }
 
 TEST_F(BowlingScoreTest, testCalculSquareScore)
@@ -104,5 +113,9 @@ TEST_F(BowlingScoreTest, testCalculAllScore)
 
 	returnTemp = bowlingScore.calculScoreAll(arrayThrow);
 
-	EXPECT_TRUE(returnTemp == 102);
+	EXPECT_TRUE(returnTemp == 110);
+
+	returnTemp = bowlingScore.calculScoreAll(arrayThrowBestScore);
+
+	EXPECT_TRUE(returnTemp == 300);
 }

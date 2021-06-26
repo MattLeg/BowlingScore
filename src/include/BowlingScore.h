@@ -26,9 +26,9 @@ public:
 
 	// buisness method
 	T calculScoreThrow(const std::tuple<T, T> throwing);
-	T calculScoreStrike(const T turn, const std::array<std::tuple<T,T>, 11> arrayThrow);
-	T calculScoreSquare(const T turn, const std::array<std::tuple<T, T>, 11> arrayThrow);
-	T calculScoreAll(const std::array<std::tuple<T, T>, 11> arrayThrow);
+	T calculScoreStrike(const T turn, const std::array<std::tuple<T,T>, 12> arrayThrow);
+	T calculScoreSquare(const T turn, const std::array<std::tuple<T, T>, 12> arrayThrow);
+	T calculScoreAll(const std::array<std::tuple<T, T>, 12> arrayThrow);
 	bool isStrike(const std::tuple<T, T> throwing);
 	bool isSquare(const std::tuple<T, T> throwing);
 
