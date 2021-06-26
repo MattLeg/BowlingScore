@@ -1,0 +1,2 @@
+/usr/bin/ar qc libBowlingScoreLib.a CMakeFiles/BowlingScoreLib.dir/BowlingScore.cpp.o
+/usr/bin/ranlib libBowlingScoreLib.a

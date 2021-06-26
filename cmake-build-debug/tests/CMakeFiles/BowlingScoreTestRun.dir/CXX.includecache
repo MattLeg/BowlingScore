@@ -858,9 +858,9 @@ BowlingScore.tpp
 include/BowlingScore.h
 ../src/include/include/BowlingScore.h
 
-C:/Users/sorge/source/repos/BowlingScore/tests/BowlingScoreTest.cpp
+/home/matthieu/CLionProjects/BowlingScore/tests/BowlingScoreTest.cpp
 include/BowlingScore.h
-C:/Users/sorge/source/repos/BowlingScore/tests/include/BowlingScore.h
+/home/matthieu/CLionProjects/BowlingScore/tests/include/BowlingScore.h
 gtest/gtest.h
-C:/Users/sorge/source/repos/BowlingScore/tests/gtest/gtest.h
+/home/matthieu/CLionProjects/BowlingScore/tests/gtest/gtest.h
 

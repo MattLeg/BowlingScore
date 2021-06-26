@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/sorge/source/repos/BowlingScore/spdlog/src/async.cpp" "C:/Users/sorge/source/repos/BowlingScore/cmake-build-debug/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.obj"
-  "C:/Users/sorge/source/repos/BowlingScore/spdlog/src/cfg.cpp" "C:/Users/sorge/source/repos/BowlingScore/cmake-build-debug/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.obj"
-  "C:/Users/sorge/source/repos/BowlingScore/spdlog/src/color_sinks.cpp" "C:/Users/sorge/source/repos/BowlingScore/cmake-build-debug/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.obj"
-  "C:/Users/sorge/source/repos/BowlingScore/spdlog/src/file_sinks.cpp" "C:/Users/sorge/source/repos/BowlingScore/cmake-build-debug/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.obj"
-  "C:/Users/sorge/source/repos/BowlingScore/spdlog/src/fmt.cpp" "C:/Users/sorge/source/repos/BowlingScore/cmake-build-debug/spdlog/CMakeFiles/spdlog.dir/src/fmt.cpp.obj"
-  "C:/Users/sorge/source/repos/BowlingScore/spdlog/src/spdlog.cpp" "C:/Users/sorge/source/repos/BowlingScore/cmake-build-debug/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.obj"
-  "C:/Users/sorge/source/repos/BowlingScore/spdlog/src/stdout_sinks.cpp" "C:/Users/sorge/source/repos/BowlingScore/cmake-build-debug/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.obj"
+  "/home/matthieu/CLionProjects/BowlingScore/spdlog/src/async.cpp" "/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o"
+  "/home/matthieu/CLionProjects/BowlingScore/spdlog/src/cfg.cpp" "/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o"
+  "/home/matthieu/CLionProjects/BowlingScore/spdlog/src/color_sinks.cpp" "/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o"
+  "/home/matthieu/CLionProjects/BowlingScore/spdlog/src/file_sinks.cpp" "/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o"
+  "/home/matthieu/CLionProjects/BowlingScore/spdlog/src/fmt.cpp" "/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog/CMakeFiles/spdlog.dir/src/fmt.cpp.o"
+  "/home/matthieu/CLionProjects/BowlingScore/spdlog/src/spdlog.cpp" "/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o"
+  "/home/matthieu/CLionProjects/BowlingScore/spdlog/src/stdout_sinks.cpp" "/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX

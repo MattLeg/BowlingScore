@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/BowlingScore.dir/main.cpp.o -o BowlingScore  src/libBowlingScoreLib.a spdlog/libspdlogd.a -lpthread 

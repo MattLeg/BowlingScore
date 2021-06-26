@@ -50,8 +50,8 @@
 #include "gtest/internal/gtest-port.h"
 
 #if GTEST_CAN_STREAM_RESULTS_
-# includeT <arpa/inet.h>  // NOLINT
-# includeT <netdb.h>  // NOLINT
+# include <arpa/inet.h>  // NOLINT
+# include <netdb.h>  // NOLINT
 #endif
 
 #if GTEST_OS_WINDOWS

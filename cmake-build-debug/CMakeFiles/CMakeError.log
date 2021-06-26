@@ -1,15 +1,60 @@
-Determining if the include file pthread.h exists failed with the following output:
-Change Dir: C:/Users/sorge/source/repos/BowlingScore/cmake-build-debug/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_fc979\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_fc979.dir\build.make /nologo -L                  CMakeFiles\cmTC_fc979.dir\build
-Building C object CMakeFiles/cmTC_fc979.dir/CheckIncludeFile.c.obj
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @C:\Users\sorge\AppData\Local\Temp\nm3F8.tmp
-CheckIncludeFile.c
-C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Impossible d'ouvrir le fichier include : 'pthread.h' : No such file or directory
-NMAKE : fatal error U1077: 'C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe'á: code retour '0x2'
-Stop.
-NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX86\x86\nmake.exe"'á: code retour '0x2'
-Stop.
+Run Build Command(s):/usr/bin/make cmTC_41eda/fast && /usr/bin/make  -f CMakeFiles/cmTC_41eda.dir/build.make CMakeFiles/cmTC_41eda.dir/build
+make[1] : on entre dans le répertoire « /home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_41eda.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_41eda.dir/src.c.o -c /home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_41eda
+/snap/clion/152/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41eda.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_41eda.dir/src.c.o -o cmTC_41eda 
+/usr/bin/ld : CMakeFiles/cmTC_41eda.dir/src.c.o : dans la fonction « main » :
+src.c:(.text+0x46) : référence indéfinie vers « pthread_create »
+/usr/bin/ld : src.c:(.text+0x52) : référence indéfinie vers « pthread_detach »
+/usr/bin/ld : src.c:(.text+0x5e) : référence indéfinie vers « pthread_cancel »
+/usr/bin/ld : src.c:(.text+0x6f) : référence indéfinie vers « pthread_join »
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_41eda.dir/build.make:106 : cmTC_41eda] Erreur 1
+make[1] : on quitte le répertoire « /home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/CMakeFiles/CMakeTmp »
+make: *** [Makefile:140 : cmTC_41eda/fast] Erreur 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_62be3/fast && /usr/bin/make  -f CMakeFiles/cmTC_62be3.dir/build.make CMakeFiles/cmTC_62be3.dir/build
+make[1] : on entre dans le répertoire « /home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_62be3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_62be3.dir/CheckFunctionExists.c.o -c /snap/clion/152/bin/cmake/linux/share/cmake-3.19/Modules/CheckFunctionExists.c
+Linking C executable cmTC_62be3
+/snap/clion/152/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62be3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_62be3.dir/CheckFunctionExists.c.o -o cmTC_62be3  -lpthreads 
+/usr/bin/ld : ne peut trouver -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_62be3.dir/build.make:106 : cmTC_62be3] Erreur 1
+make[1] : on quitte le répertoire « /home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/CMakeFiles/CMakeTmp »
+make: *** [Makefile:140 : cmTC_62be3/fast] Erreur 2
 
 
 

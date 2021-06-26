@@ -4,131 +4,129 @@
 	<Project>
 		<Option title="BowlingScoreTest"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="msvc8"/>
+		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\spdlog\;CMake Files\spdlog\cmake\;CMake Files\Google_tests\;CMake Files\Google_tests\lib\;CMake Files\Google_tests\lib\googlemock\;CMake Files\Google_tests\lib\googlemock\cmake\;CMake Files\Google_tests\lib\googletest\;CMake Files\Google_tests\lib\googletest\cmake\;CMake Files\tests\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/sorge/source/repos/BowlingScore/cmake-build-debug/tests"/>
+				<Option working_dir="/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/tests"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\tests\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\tests\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\tests\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\tests\Makefile VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BowlingScoreTestRun">
-				<Option output="C:/Users/sorge/source/repos/BowlingScore/cmake-build-debug/tests/BowlingScoreTestRun.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/sorge/source/repos/BowlingScore/cmake-build-debug/tests"/>
+				<Option output="/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/tests/BowlingScoreTestRun" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/tests"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="msvc8"/>
+				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DSPDLOG_COMPILED_LIB"/>
-					<Add directory="C:/Users/sorge/source/repos/BowlingScore/cmake-build-debug/tests"/>
-					<Add directory="C:/Users/sorge/source/repos/BowlingScore/tests"/>
-					<Add directory="C:/Users/sorge/source/repos/BowlingScore/src"/>
-					<Add directory="C:/Users/sorge/source/repos/BowlingScore/tests/src"/>
-					<Add directory="C:/Users/sorge/source/repos/BowlingScore/spdlog/include"/>
-					<Add directory="C:/Users/sorge/source/repos/BowlingScore/Google_tests/lib/googletest/include"/>
-					<Add directory="C:/Users/sorge/source/repos/BowlingScore/Google_tests/lib/googletest"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+					<Add directory="/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/tests"/>
+					<Add directory="/home/matthieu/CLionProjects/BowlingScore/tests"/>
+					<Add directory="/home/matthieu/CLionProjects/BowlingScore/src"/>
+					<Add directory="/home/matthieu/CLionProjects/BowlingScore/tests/src"/>
+					<Add directory="/home/matthieu/CLionProjects/BowlingScore/spdlog/include"/>
+					<Add directory="/home/matthieu/CLionProjects/BowlingScore/Google_tests/lib/googletest/include"/>
+					<Add directory="/home/matthieu/CLionProjects/BowlingScore/Google_tests/lib/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\tests\Makefile VERBOSE=1 BowlingScoreTestRun"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\tests\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\tests\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\tests\Makefile VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 BowlingScoreTestRun"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BowlingScoreTestRun/fast">
-				<Option output="C:/Users/sorge/source/repos/BowlingScore/cmake-build-debug/tests/BowlingScoreTestRun.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/sorge/source/repos/BowlingScore/cmake-build-debug/tests"/>
+				<Option output="/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/tests/BowlingScoreTestRun" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/tests"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="msvc8"/>
+				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DSPDLOG_COMPILED_LIB"/>
-					<Add directory="C:/Users/sorge/source/repos/BowlingScore/cmake-build-debug/tests"/>
-					<Add directory="C:/Users/sorge/source/repos/BowlingScore/tests"/>
-					<Add directory="C:/Users/sorge/source/repos/BowlingScore/src"/>
-					<Add directory="C:/Users/sorge/source/repos/BowlingScore/tests/src"/>
-					<Add directory="C:/Users/sorge/source/repos/BowlingScore/spdlog/include"/>
-					<Add directory="C:/Users/sorge/source/repos/BowlingScore/Google_tests/lib/googletest/include"/>
-					<Add directory="C:/Users/sorge/source/repos/BowlingScore/Google_tests/lib/googletest"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+					<Add directory="/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/tests"/>
+					<Add directory="/home/matthieu/CLionProjects/BowlingScore/tests"/>
+					<Add directory="/home/matthieu/CLionProjects/BowlingScore/src"/>
+					<Add directory="/home/matthieu/CLionProjects/BowlingScore/tests/src"/>
+					<Add directory="/home/matthieu/CLionProjects/BowlingScore/spdlog/include"/>
+					<Add directory="/home/matthieu/CLionProjects/BowlingScore/Google_tests/lib/googletest/include"/>
+					<Add directory="/home/matthieu/CLionProjects/BowlingScore/Google_tests/lib/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\tests\Makefile VERBOSE=1 BowlingScoreTestRun/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\tests\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\tests\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\tests\Makefile VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 BowlingScoreTestRun/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/tests/BowlingScoreTest.cpp">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/tests/BowlingScoreTest.cpp">
 			<Option target="BowlingScoreTestRun"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/CMakeLists.txt">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/src/CMakeLists.txt">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/CMakeLists.txt">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\spdlog\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/cmake/ide.cmake">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/cmake/ide.cmake">
 			<Option virtualFolder="CMake Files\spdlog\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/cmake/utils.cmake">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/cmake/utils.cmake">
 			<Option virtualFolder="CMake Files\spdlog\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/Google_tests/CMakeLists.txt">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/Google_tests/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Google_tests\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/Google_tests/lib/CMakeLists.txt">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/Google_tests/lib/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Google_tests\lib\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/Google_tests/lib/googlemock/CMakeLists.txt">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/Google_tests/lib/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Google_tests\lib\googlemock\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/Google_tests/lib/googlemock/cmake/gmock.pc.in">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/Google_tests/lib/googlemock/cmake/gmock.pc.in">
 			<Option virtualFolder="CMake Files\Google_tests\lib\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/Google_tests/lib/googlemock/cmake/gmock_main.pc.in">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/Google_tests/lib/googlemock/cmake/gmock_main.pc.in">
 			<Option virtualFolder="CMake Files\Google_tests\lib\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/Google_tests/lib/googletest/CMakeLists.txt">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/Google_tests/lib/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/Google_tests/lib/googletest/cmake/Config.cmake.in">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/Google_tests/lib/googletest/cmake/Config.cmake.in">
 			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/Google_tests/lib/googletest/cmake/gtest.pc.in">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/Google_tests/lib/googletest/cmake/gtest.pc.in">
 			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/Google_tests/lib/googletest/cmake/gtest_main.pc.in">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/Google_tests/lib/googletest/cmake/gtest_main.pc.in">
 			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/Google_tests/lib/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/Google_tests/lib/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/tests/CMakeLists.txt">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/tests/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\"/>
 		</Unit>
 	</Project>

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/sorge/source/repos/BowlingScore/src/BowlingScore.cpp" "C:/Users/sorge/source/repos/BowlingScore/cmake-build-debug/src/CMakeFiles/BowlingScoreLib.dir/BowlingScore.cpp.obj"
+  "/home/matthieu/CLionProjects/BowlingScore/src/BowlingScore.cpp" "/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/src/CMakeFiles/BowlingScoreLib.dir/BowlingScore.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
@@ -22,7 +22,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/sorge/source/repos/BowlingScore/cmake-build-debug/spdlog/CMakeFiles/spdlog.dir/DependInfo.cmake"
+  "/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog/CMakeFiles/spdlog.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

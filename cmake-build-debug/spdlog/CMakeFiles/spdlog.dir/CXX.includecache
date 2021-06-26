@@ -784,7 +784,7 @@ spdlog-inl.h
 
 ../spdlog/include/spdlog/version.h
 
-C:/Users/sorge/source/repos/BowlingScore/spdlog/src/async.cpp
+/home/matthieu/CLionProjects/BowlingScore/spdlog/src/async.cpp
 spdlog/async.h
 -
 spdlog/async_logger-inl.h
@@ -794,11 +794,11 @@ spdlog/details/periodic_worker-inl.h
 spdlog/details/thread_pool-inl.h
 -
 
-C:/Users/sorge/source/repos/BowlingScore/spdlog/src/cfg.cpp
+/home/matthieu/CLionProjects/BowlingScore/spdlog/src/cfg.cpp
 spdlog/cfg/helpers-inl.h
 -
 
-C:/Users/sorge/source/repos/BowlingScore/spdlog/src/color_sinks.cpp
+/home/matthieu/CLionProjects/BowlingScore/spdlog/src/color_sinks.cpp
 mutex
 -
 spdlog/details/null_mutex.h
@@ -808,11 +808,11 @@ spdlog/async.h
 spdlog/sinks/wincolor_sink-inl.h
 -
 spdlog/sinks/ansicolor_sink-inl.h
-C:/Users/sorge/source/repos/BowlingScore/spdlog/src/spdlog/sinks/ansicolor_sink-inl.h
+/home/matthieu/CLionProjects/BowlingScore/spdlog/src/spdlog/sinks/ansicolor_sink-inl.h
 spdlog/sinks/stdout_color_sinks-inl.h
-C:/Users/sorge/source/repos/BowlingScore/spdlog/src/spdlog/sinks/stdout_color_sinks-inl.h
+/home/matthieu/CLionProjects/BowlingScore/spdlog/src/spdlog/sinks/stdout_color_sinks-inl.h
 
-C:/Users/sorge/source/repos/BowlingScore/spdlog/src/file_sinks.cpp
+/home/matthieu/CLionProjects/BowlingScore/spdlog/src/file_sinks.cpp
 spdlog/details/null_mutex.h
 -
 spdlog/details/file_helper-inl.h
@@ -826,11 +826,11 @@ mutex
 spdlog/sinks/rotating_file_sink-inl.h
 -
 
-C:/Users/sorge/source/repos/BowlingScore/spdlog/src/fmt.cpp
+/home/matthieu/CLionProjects/BowlingScore/spdlog/src/fmt.cpp
 spdlog/fmt/bundled/format-inl.h
 -
 
-C:/Users/sorge/source/repos/BowlingScore/spdlog/src/spdlog.cpp
+/home/matthieu/CLionProjects/BowlingScore/spdlog/src/spdlog.cpp
 spdlog/spdlog-inl.h
 -
 spdlog/common-inl.h
@@ -858,7 +858,7 @@ spdlog/details/null_mutex.h
 mutex
 -
 
-C:/Users/sorge/source/repos/BowlingScore/spdlog/src/stdout_sinks.cpp
+/home/matthieu/CLionProjects/BowlingScore/spdlog/src/stdout_sinks.cpp
 mutex
 -
 spdlog/details/null_mutex.h

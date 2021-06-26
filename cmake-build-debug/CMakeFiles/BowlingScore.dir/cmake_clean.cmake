@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "BowlingScore.exe"
-  "BowlingScore.exe.manifest"
-  "BowlingScore.lib"
+  "BowlingScore"
   "BowlingScore.pdb"
-  "CMakeFiles/BowlingScore.dir/main.cpp.obj"
+  "CMakeFiles/BowlingScore.dir/main.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

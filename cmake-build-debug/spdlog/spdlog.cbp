@@ -4,401 +4,399 @@
 	<Project>
 		<Option title="spdlog"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="msvc8"/>
+		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\spdlog\;CMake Files\spdlog\cmake\;CMake Files\Google_tests\;CMake Files\Google_tests\lib\;CMake Files\Google_tests\lib\googlemock\;CMake Files\Google_tests\lib\googlemock\cmake\;CMake Files\Google_tests\lib\googletest\;CMake Files\Google_tests\lib\googletest\cmake\;CMake Files\tests\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/sorge/source/repos/BowlingScore/cmake-build-debug/spdlog"/>
+				<Option working_dir="/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\spdlog\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\spdlog\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\spdlog\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\spdlog\Makefile VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="spdlog">
-				<Option output="C:/Users/sorge/source/repos/BowlingScore/cmake-build-debug/spdlog/spdlogd.lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/sorge/source/repos/BowlingScore/cmake-build-debug/spdlog"/>
+				<Option output="/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog/libspdlogd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
-				<Option compiler="msvc8"/>
+				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DSPDLOG_COMPILED_LIB"/>
-					<Add directory="C:/Users/sorge/source/repos/BowlingScore/cmake-build-debug/spdlog"/>
-					<Add directory="C:/Users/sorge/source/repos/BowlingScore/spdlog"/>
-					<Add directory="C:/Users/sorge/source/repos/BowlingScore/src"/>
-					<Add directory="C:/Users/sorge/source/repos/BowlingScore/spdlog/include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+					<Add directory="/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog"/>
+					<Add directory="/home/matthieu/CLionProjects/BowlingScore/spdlog"/>
+					<Add directory="/home/matthieu/CLionProjects/BowlingScore/src"/>
+					<Add directory="/home/matthieu/CLionProjects/BowlingScore/spdlog/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\spdlog\Makefile VERBOSE=1 spdlog"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\spdlog\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\spdlog\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\spdlog\Makefile VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog/Makefile&quot;  VERBOSE=1 spdlog"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="spdlog/fast">
-				<Option output="C:/Users/sorge/source/repos/BowlingScore/cmake-build-debug/spdlog/spdlogd.lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/sorge/source/repos/BowlingScore/cmake-build-debug/spdlog"/>
+				<Option output="/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog/libspdlogd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
-				<Option compiler="msvc8"/>
+				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DSPDLOG_COMPILED_LIB"/>
-					<Add directory="C:/Users/sorge/source/repos/BowlingScore/cmake-build-debug/spdlog"/>
-					<Add directory="C:/Users/sorge/source/repos/BowlingScore/spdlog"/>
-					<Add directory="C:/Users/sorge/source/repos/BowlingScore/src"/>
-					<Add directory="C:/Users/sorge/source/repos/BowlingScore/spdlog/include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+					<Add directory="/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog"/>
+					<Add directory="/home/matthieu/CLionProjects/BowlingScore/spdlog"/>
+					<Add directory="/home/matthieu/CLionProjects/BowlingScore/src"/>
+					<Add directory="/home/matthieu/CLionProjects/BowlingScore/spdlog/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\spdlog\Makefile VERBOSE=1 spdlog/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\spdlog\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\spdlog\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\sorge\source\repos\BowlingScore\cmake-build-debug\spdlog\Makefile VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog/Makefile&quot;  VERBOSE=1 spdlog/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/matthieu/CLionProjects/BowlingScore/cmake-build-debug/spdlog/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/async.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/async.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/async_logger-inl.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/async_logger-inl.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/async_logger.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/async_logger.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/common-inl.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/common-inl.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/common.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/common.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/backtracer-inl.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/backtracer-inl.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/backtracer.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/backtracer.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/circular_q.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/circular_q.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/console_globals.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/console_globals.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/file_helper-inl.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/file_helper-inl.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/file_helper.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/file_helper.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/fmt_helper.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/fmt_helper.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/log_msg-inl.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/log_msg-inl.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/log_msg.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/log_msg.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/log_msg_buffer-inl.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/log_msg_buffer-inl.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/log_msg_buffer.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/log_msg_buffer.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/mpmc_blocking_q.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/mpmc_blocking_q.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/null_mutex.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/null_mutex.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/os-inl.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/os-inl.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/os.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/os.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/periodic_worker-inl.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/periodic_worker-inl.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/periodic_worker.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/periodic_worker.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/registry-inl.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/registry-inl.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/registry.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/registry.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/synchronous_factory.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/synchronous_factory.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/tcp_client-windows.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/tcp_client-windows.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/tcp_client.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/tcp_client.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/thread_pool-inl.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/thread_pool-inl.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/thread_pool.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/thread_pool.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/details/windows_include.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/details/windows_include.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/fmt/bin_to_hex.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/fmt/bin_to_hex.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/fmt/bundled/chrono.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/fmt/bundled/chrono.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/fmt/bundled/color.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/fmt/bundled/color.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/fmt/bundled/compile.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/fmt/bundled/compile.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/fmt/bundled/core.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/fmt/bundled/core.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/fmt/bundled/format-inl.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/fmt/bundled/format-inl.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/fmt/bundled/format.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/fmt/bundled/format.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/fmt/bundled/locale.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/fmt/bundled/locale.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/fmt/bundled/os.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/fmt/bundled/os.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/fmt/bundled/ostream.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/fmt/bundled/ostream.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/fmt/bundled/posix.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/fmt/bundled/posix.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/fmt/bundled/printf.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/fmt/bundled/printf.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/fmt/bundled/ranges.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/fmt/bundled/ranges.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/fmt/chrono.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/fmt/chrono.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/fmt/fmt.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/fmt/fmt.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/fmt/ostr.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/fmt/ostr.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/formatter.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/formatter.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/fwd.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/fwd.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/logger-inl.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/logger-inl.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/logger.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/logger.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/pattern_formatter-inl.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/pattern_formatter-inl.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/pattern_formatter.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/pattern_formatter.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/android_sink.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/android_sink.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/ansicolor_sink.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/ansicolor_sink.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/base_sink-inl.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/base_sink-inl.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/base_sink.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/base_sink.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/basic_file_sink-inl.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/basic_file_sink-inl.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/basic_file_sink.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/basic_file_sink.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/daily_file_sink.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/daily_file_sink.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/dist_sink.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/dist_sink.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/dup_filter_sink.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/dup_filter_sink.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/hourly_file_sink.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/hourly_file_sink.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/msvc_sink.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/msvc_sink.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/null_sink.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/null_sink.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/ostream_sink.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/ostream_sink.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/ringbuffer_sink.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/ringbuffer_sink.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/rotating_file_sink.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/rotating_file_sink.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/sink-inl.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/sink-inl.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/sink.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/sink.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/stdout_color_sinks.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/stdout_color_sinks.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/stdout_sinks-inl.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/stdout_sinks-inl.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/stdout_sinks.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/stdout_sinks.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/syslog_sink.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/syslog_sink.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/systemd_sink.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/systemd_sink.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/tcp_sink.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/tcp_sink.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/win_eventlog_sink.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/win_eventlog_sink.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/wincolor_sink-inl.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/wincolor_sink-inl.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/sinks/wincolor_sink.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/sinks/wincolor_sink.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/spdlog-inl.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/spdlog-inl.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/spdlog.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/spdlog.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/stopwatch.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/stopwatch.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/tweakme.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/tweakme.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/include/spdlog/version.h">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/include/spdlog/version.h">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/src/async.cpp">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/src/async.cpp">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/src/cfg.cpp">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/src/cfg.cpp">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/src/color_sinks.cpp">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/src/color_sinks.cpp">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/src/file_sinks.cpp">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/src/file_sinks.cpp">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/src/fmt.cpp">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/src/fmt.cpp">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/src/spdlog.cpp">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/src/spdlog.cpp">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/src/stdout_sinks.cpp">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/src/stdout_sinks.cpp">
 			<Option target="spdlog"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/CMakeLists.txt">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/src/CMakeLists.txt">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/CMakeLists.txt">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\spdlog\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/cmake/ide.cmake">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/cmake/ide.cmake">
 			<Option virtualFolder="CMake Files\spdlog\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/spdlog/cmake/utils.cmake">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/spdlog/cmake/utils.cmake">
 			<Option virtualFolder="CMake Files\spdlog\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/Google_tests/CMakeLists.txt">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/Google_tests/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Google_tests\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/Google_tests/lib/CMakeLists.txt">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/Google_tests/lib/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Google_tests\lib\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/Google_tests/lib/googlemock/CMakeLists.txt">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/Google_tests/lib/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Google_tests\lib\googlemock\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/Google_tests/lib/googlemock/cmake/gmock.pc.in">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/Google_tests/lib/googlemock/cmake/gmock.pc.in">
 			<Option virtualFolder="CMake Files\Google_tests\lib\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/Google_tests/lib/googlemock/cmake/gmock_main.pc.in">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/Google_tests/lib/googlemock/cmake/gmock_main.pc.in">
 			<Option virtualFolder="CMake Files\Google_tests\lib\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/Google_tests/lib/googletest/CMakeLists.txt">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/Google_tests/lib/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/Google_tests/lib/googletest/cmake/Config.cmake.in">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/Google_tests/lib/googletest/cmake/Config.cmake.in">
 			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/Google_tests/lib/googletest/cmake/gtest.pc.in">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/Google_tests/lib/googletest/cmake/gtest.pc.in">
 			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/Google_tests/lib/googletest/cmake/gtest_main.pc.in">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/Google_tests/lib/googletest/cmake/gtest_main.pc.in">
 			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/Google_tests/lib/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/Google_tests/lib/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/sorge/source/repos/BowlingScore/tests/CMakeLists.txt">
+		<Unit filename="/home/matthieu/CLionProjects/BowlingScore/tests/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tests\"/>
 		</Unit>
 	</Project>

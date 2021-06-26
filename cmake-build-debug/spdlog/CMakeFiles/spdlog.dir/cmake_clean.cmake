@@ -1,13 +1,13 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/spdlog.dir/src/async.cpp.obj"
-  "CMakeFiles/spdlog.dir/src/cfg.cpp.obj"
-  "CMakeFiles/spdlog.dir/src/color_sinks.cpp.obj"
-  "CMakeFiles/spdlog.dir/src/file_sinks.cpp.obj"
-  "CMakeFiles/spdlog.dir/src/fmt.cpp.obj"
-  "CMakeFiles/spdlog.dir/src/spdlog.cpp.obj"
-  "CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.obj"
-  "spdlogd.lib"
-  "spdlogd.pdb"
+  "CMakeFiles/spdlog.dir/src/async.cpp.o"
+  "CMakeFiles/spdlog.dir/src/cfg.cpp.o"
+  "CMakeFiles/spdlog.dir/src/color_sinks.cpp.o"
+  "CMakeFiles/spdlog.dir/src/file_sinks.cpp.o"
+  "CMakeFiles/spdlog.dir/src/fmt.cpp.o"
+  "CMakeFiles/spdlog.dir/src/spdlog.cpp.o"
+  "CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o"
+  "libspdlogd.a"
+  "libspdlogd.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
