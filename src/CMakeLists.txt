@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.17)
+cmake_minimum_required(VERSION 3.16)
 
 set(HEADER_FILES include/BowlingScore.h include/BowlingScore.tpp)
 set(SOURCE_FILES BowlingScore.cpp)
